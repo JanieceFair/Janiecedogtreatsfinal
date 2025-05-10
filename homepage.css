@@ -1,0 +1,177 @@
+html { background: #111; }
+	
+body {
+	margin: 0 auto;
+ 
+      font-family: "Tinos-regular", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1.75;
+	  
+	  font-family: "Markazi text", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: 400;
+       font-style: normal;
+       font-variation-settings: "wdth" 100; 
+ }
+ header img {
+	 max-width: 100%;
+	 height: auto;
+ }
+{
+  box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+  color: #392613;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+ul { 
+font-size: 25px;}
+
+h2 { font-weight: bold;
+color: #1b1209;
+font-size: 45px;
+}
+p{ font-weight: light;
+color: black;
+font-size: 25px;
+}
+
+	#box-one{
+	     background-color: #F8F8FF;
+		 padding: 100px;
+		 border: 10px solid orange;
+		 margin: 10px;
+		 width: 200px;
+		 text-align: justify;
+		 }
+
+	  #customers {
+  font-family: tinos-regular, markazi text;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid orange;
+  padding: 10px;
+}
+
+#customers tr:nth-child(even){background-color: #f9f4ee;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: left;
+  background-color: #f9f4ee;
+  color: #392613;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: brown;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: orange;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: orange;
+  color: black;
+}
+a {
+font-size: 25px; }
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 45%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+  
+/* Style the footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+H1     {
+	  font-family: "Markazi Text", sans-serif;
+	  font-size: 100px; 
+	   } 
+  p {
+	  font-family: "Tinos-regular", sans-serif;
+	  font-size: 25px; 
+	  }
+H2     {
+	  font-family: "Markazi Text", sans-serif;
+	  font-size: 50px; 
+		}
+  p {
+	  font-family: "Tinos-regular", sans-serif;
+	  font-size: 25px;
+	  }

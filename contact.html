@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+
+  <title>Janiece Dog Treats!
+  </title>
+  
+  	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+     <link
+     rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="homepage.css"
+      >
+	  	  <link
+	rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="homepage.css"
+	  >
+	  <style>
+ {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+/* Style the header */
+.header {
+  color: #392613;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+ul { 
+font-size: 25px;}
+
+	#box-one{
+	     background-color: #F8F8FF;
+		 padding: 100px;
+		 border: 10px solid orange;
+		 margin: 10px;
+		 width: 200px;
+		 text-align: justify;
+		 }
+
+	  #customers {
+  font-family: tinos-regular, markazi text;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid orange;
+  padding: 10px;
+}
+
+#customers tr:nth-child(even){background-color: #f9f4ee;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: left;
+  background-color: #f9f4ee;
+  color: #392613;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: orange;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: orange;
+  color: black;
+}
+a {
+font-size: 25px; }
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 45%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+
+/* Style the footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+</style>
+</head>
+<body>
+  
+  <div class="header">
+  <h1>Contact Janiece Dog Treats!</h1>
+  <div class="topnav">
+	<a href="index.html">Home</a>
+	<a href="About.html">About</a>
+	<a href="products.html">Products</a>
+	<a href="contact.html">Contact</a>
+</div>
+
+<div class="row">
+<div class="column">
+<h2>Our Locations!</h2>
+<table id="customers">
+<tr>
+	<th>Browineville:
+	3096 S, Burora Ave,
+	(516)851-9585
+	8am-9pm</th>
+	<th>Bloomington:
+	4107 W, Nearl st,
+	(607)962-0696
+	9am-10pm</th>
+	<th>Westy:
+	5218 N, Viller Dr.
+	(718)073-1707
+	10am-11pm</th>
+	<th>Dendon:
+	6329 S, Millon Rd,
+	(829)184-2818
+	11am-12pm</th>
+	</div>
+	</table>
+	
+	<div class="row">
+	<div class="column">
+	<div id="box-one">
+	<h2>Email Us!</h2>
+	<form action="welcome_get.php" method="get">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+Brief question: <input type="text" name="brief question"><br>
+<input type="submit">
+</form>
+</div>
+
+<p>Join membership here as well!</p>
+</body>
+</html>
